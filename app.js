@@ -6,15 +6,14 @@ const cors = require('cors');
 const { userExtractor } = require('./middleware/auth');
 const cookieParser = require('cookie-parser');
 const morgan = require('morgan');
-
+const { MONGO_URI } = require('./config');
 
 
 //controllers
 const loginRouter = require('./controllers/login');
-const todosRouter = require('./controllers/todo');
+const todosRouter = require('./controllers/todos');
 const logoutRouter = require('./controllers/logout');
 const usersRouter = require('./controllers/users');
-
 const app = express();
 
 
