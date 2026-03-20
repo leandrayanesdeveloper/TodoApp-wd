@@ -59,7 +59,7 @@ TodoApp es una aplicación web profesional diseñada para la gestión de tareas 
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/todoapp.git](https://github.com/TU_USUARIO/todoapp.git)
+   git clone https://github.com/leandrayanesdeveloper/TodoApp-wd.git
    ```
 2. **Instalar dependencias:**
    ```bash
@@ -73,14 +73,20 @@ TodoApp es una aplicación web profesional diseñada para la gestión de tareas 
    EMAIL_API_KEY=tu_api_key_de_emaillistverify
    ```
 4. **Iniciar el servidor:**
-   ```bash
+   MODO DESARROLLO/TEST: Nodemon
+   ```bash 
+   npm run dev
+   ```
+   MODO PRODUCCIÓN: Render
+   ```bash 
    npm run start
    ```
 
 ## 👥 Autores
-* **William Delgadillo**
-* **Andres Contreras**
-* **Leandra Yanez**
+
+* [**William Delgadillo**](https://github.com/delgadillow79-star) 
+* [**Andres Contreras**](https://github.com/Andres15cc)
+* [**Leandra Yanes**](https://github.com/leandrayanesdeveloper)
 
 
 ---
