@@ -92,7 +92,7 @@ form.addEventListener('submit', async e => {
 
  //LA REDIRECCIÓN: Esperamos 2 segundos y lo mandamos al login
   setTimeout(() => {
-      window.location.href = '../login/index.html'; 
+      window.location.pathname = '/login'; 
     }, 2000);
 
   // Limpia los campos del formulario.
